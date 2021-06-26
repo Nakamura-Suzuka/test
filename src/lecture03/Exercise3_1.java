@@ -1,6 +1,6 @@
 package lecture03;
 
-import java.util.Scanner;
+import java.util.Scanner; //Scannerを使うという宣言
 
 public class Exercise3_1 {
     public static void main(String[] args) { //mainメソッド
