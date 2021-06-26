@@ -13,9 +13,11 @@ public class Exercise3_2 {
         String input = scanner.nextLine();
 
         //指定された行数分入力を受け付け、それらの文字列をArrayListに追加する
-        ArrayList<Scanner> scanners = new ArrayList<Scanner>();
+        ArrayList<String> arrayList = new ArrayList<String>();
 
+        //拡張for文
+        for(String ArrayList : arrayList){
 
-        scanners.add(new Scanner("+scanner+"),);
+        }
     }
 }
