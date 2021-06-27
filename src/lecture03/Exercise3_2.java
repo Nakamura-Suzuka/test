@@ -18,6 +18,7 @@ public class Exercise3_2 {
         //拡張for文
         for(String ArrayList : arrayLists){
             arrayList.get(int i);
+            System.out.println("+arrayList+");
         }
     }
 }
