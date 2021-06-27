@@ -10,15 +10,23 @@ public class Exercise3_2 {
         //何行分の文字列を入力させるかを入力させる
         System.out.println("何行分入力しますか？");
         //入力された1行分の文字列を読み取って返す
-        String input = scanner.nextLine();
+        int input = scanner.nextInt();
+        scanner.nextLine();
 
         //指定された行数分入力を受け付け、それらの文字列をArrayListに追加する
         ArrayList<String> arrayList = new ArrayList<String>();
+        for(int i = 0;i < input; i++){
+            String input2 = scanner.nextLine();
+            arrayList.add(input2); //arrayListのadd(input2)メソッド
+        }
 
         //拡張for文
-        for(String ArrayList : arrayLists){
-            arrayList.get(int i);
-            System.out.println("+arrayList+");
+        for(String str : arrayList){
+            int x;
+            x = arrayList.indexOf(str);
+            System.out.println("["+x+"]" + str);
         }
     }
 }
+
+//+arrayList.indexOf(str) "行目:"
