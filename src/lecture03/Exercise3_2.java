@@ -23,7 +23,7 @@ public class Exercise3_2 {
         //拡張for文
         for(String str : arrayList){
             int x;
-            x = arrayList.indexOf(str);
+            x = arrayList.indexOf(str); //indexOf(str)メソッド
             System.out.println("["+x+"]" + str);
         }
     }

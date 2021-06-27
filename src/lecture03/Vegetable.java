@@ -6,11 +6,11 @@ public class Vegetable { //Vegetableクラス
 
     //コンストラクタ
     Vegetable(String name , int value){
-        this name = name;
-        this value = value;
+        this.name = name;
+        this.value = value;
     }
 
-    public static void print() { //print()メソッド
+    public void print() { //print()メソッド
         System.out.println(""+name+"　は　"+value+"円");
     }
 }
