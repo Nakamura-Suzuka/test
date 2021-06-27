@@ -16,8 +16,8 @@ public class Exercise3_2 {
         ArrayList<String> arrayList = new ArrayList<String>();
 
         //拡張for文
-        for(String ArrayList : arrayList){
-
+        for(String ArrayList : arrayLists){
+            arrayList.get(int i);
         }
     }
 }
