@@ -8,18 +8,20 @@ public class Exercise3_4 {
         ArrayList<Vegetable> arrayList = new ArrayList<>();
 
         //Vegetableクラスのインスタンス化とその際に引数を渡す
-        /*
+
         Vegetable vegetable1 = new Vegetable("にんじん",117);
         Vegetable vegetable2 = new Vegetable("たまねぎ",120);
         Vegetable vegetable3 = new Vegetable("じゃがいも",154);
-        */
 
-        //繰り返し処理を用いた場合
-        for(Vegetable str : arrayList){
-
-        }
+        //vegetable1,2,3をarrayListに入れる
+        arrayList.add(vegetable1);
+        arrayList.add(vegetable2);
+        arrayList.add(vegetable3);
 
         //Vegetableクラスのインスタンスからprint()メソッドを呼び出す
-        Vegetable.print();
+        for(int i = 0; i <3 ; i++) {
+            arrayList.get(i).print();
+        }
     }
 }
+
